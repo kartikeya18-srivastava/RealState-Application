@@ -1,0 +1,324 @@
+/* 🌐 GLOBAL STYLES */
+* {
+  font-family: 'Poppins', sans-serif;
+}
+
+body {
+  overflow-x: hidden;
+}
+
+/* 🎞️ SLIDER / HERO SECTION (Home Page) */
+.slider {
+  min-height: 450px;
+}
+
+.sliderdiv {
+  padding-top: 100px;
+  padding-left: 60px;
+  color: white;
+}
+
+.sliderp {
+  border-left: 2px solid black;
+  padding-left: 10px;
+}
+
+.sliderimg {
+  height: 450px;
+}
+.slider-enquiry{
+  width: 200px;
+  
+}
+
+/* 🔢 COUNTER SECTION */
+.divcounter {
+  height: 200px;
+}
+
+.countericon {
+  padding-top: 30px;
+  font-size: 40px;
+  text-align: center;
+}
+
+/* 🎨 UTILITY CLASSES */
+.text-mycolor {
+  color: #E65100;
+}
+
+.text-orange {
+  color: #ff5722;
+}
+
+/* 🛠️ SERVICES SECTION */
+.services {
+  min-height: 250px;
+}
+
+/* 🏘️ PROPERTY SECTION */
+.property {
+  min-height: 300px;
+  padding-top: 50px;
+  padding-bottom: 50px;
+}
+
+/* 🌟 FEATURED PROPERTIES SECTION */
+.featuredp {
+  color: grey;
+}
+
+.featureddiv {
+  border-right: 1px solid grey;
+  padding: 10px;
+  text-align: center;
+}
+
+.featureddivsp {
+  padding: 10px;
+  text-align: center;
+}
+
+.featuredimg {
+  height: 220px;
+}
+
+/* 💳 FEATURE CARDS (Circular Icons) */
+.cardic {
+  height: 80px;
+  width: 80px;
+  background-color: #FFCCBC;
+  text-align: center;
+  font-size: 35px;
+  border-radius: 50%;
+  line-height: 60px;
+  margin: 0px auto;
+  padding: 5px;
+}
+
+/* 🔘 CARD BUTTON (Hover or Slider Button) */
+.boxbtn {
+  position: relative;
+}
+
+.cardbtn {
+  height: 50px;
+  width: 50px;
+  position: absolute;
+  border: 1px solid grey;
+  border-radius: 50%;
+  font-size: 22px;
+  line-height: 40px;
+  text-align: center;
+  top: 200px;
+  left: 90px;
+  background-color: white;
+  box-shadow: 0px 0px 5px grey;
+}
+
+/* 💬 TESTIMONIALS SECTION */
+.testimonials {
+  background-color: #f9f9fc;
+}
+
+.testimonial-heading {
+  background-color: #FFDEAD;
+  opacity: 0.8;
+  font-size: 15px;
+}
+
+.testimonial-card {
+  transition: all 0.3s ease;
+  border: none;
+}
+
+.testimonial-card:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 10px 25px rgba(0, 0, 0, 0.05);
+}
+
+.quote {
+  font-size: 30px;
+  color: #666;
+}
+
+/* 🦶 FOOTER */
+.footer {
+  background-color: #0f111f;
+}
+
+.footer ul li {
+  margin-bottom: 8px;
+  cursor: pointer;
+}
+
+.footer .social-icons i {
+  font-size: 18px;
+  cursor: pointer;
+}
+
+.footer a {
+  text-decoration: none;
+}
+
+/* 📞 CONTACT SECTION */
+.contact-section {
+  background-color: #fef2f2;
+}
+
+.contact-card {
+  max-width: 800px;
+  border-radius: 10px;
+  background-color: #ffffff;
+}
+
+/* 🔘 BUTTON STYLES */
+.btn-orange {
+  background-color: #ff5722;
+  color: white;
+  border: none;
+}
+
+.btn-orange:hover {
+  background-color: #e64a19;
+}
+
+.btn-outline-danger {
+  border: 2px solid #ff5722;
+  color: #ff5722;
+  font-weight: 500;
+  transition: 0.3s ease;
+}
+
+.btn-outline-danger:hover {
+  background-color: #ff5722;
+  color: #fff;
+}
+
+/* ✍️ FORM ELEMENTS (Contact, Register, Login) */
+.form-control,
+.form-select {
+  border-radius: 8px;
+}
+
+.form-control:focus,
+.form-select:focus {
+  border-color: #ff5722;
+  box-shadow: 0 0 0 0.2rem rgba(255, 87, 34, 0.25);
+}
+
+.input-group-text {
+  background-color: #fff;
+  border-right: none;
+}
+
+.input-group .form-control {
+  border-left: none;
+}
+
+p.text-danger {
+  font-size: 0.9rem;
+  margin-bottom: 0;
+}
+
+/* 📝 REGISTER PAGE */
+.form-box {
+   background: #fff;
+   border-radius: 10px;
+   padding: 30px;
+   box-shadow: 0 0 20px rgba(0, 0, 0, 0.1);
+ }
+
+ h2 {
+   color: #ff4d4d;
+   font-weight: 600;
+   margin-bottom: 30px;
+ }
+
+ .form-control:focus {
+   box-shadow: none;
+   border-color: #ff4d4d;
+ }
+
+ .btn-register {
+   color: white;
+   border: 1px solid #ff4d4d;
+ }
+
+ .btn-register:hover {
+   background-color: #ff4d4d;
+   color: #fff;
+ }
+
+
+/* 🔐 LOGIN PAGE */
+ .login-box {
+   max-width: 500px;
+   margin: auto;
+   background: #fff;
+   border-radius: 10px;
+   padding: 30px;
+   box-shadow: 0px 10px 20px rgba(0, 0, 0, 0.1);
+ }
+
+ .login-title {
+   text-align: center;
+   color: #ff5733;
+   margin-bottom: 30px;
+   font-weight: 600;
+ }
+ .login-btn{
+  border: 1px solid #ff5733;
+ }
+ .form-control:focus {
+   border-color: #ff5733;
+   box-shadow: none;
+ }
+
+ .btn-login:hover {
+   background-color: #ff5733 !important;
+   color: white !important;
+ }
+
+/* 🔝 TOP NAVBAR */
+.top-navbar a {
+  text-decoration: none;
+  font-size: 0.9rem;
+}
+
+.top-navbar span {
+  font-size: 0.9rem;
+}
+
+.icon-btn {
+  font-size: 1.1rem;
+  color: #333;
+  cursor: pointer;
+}
+
+.logo {
+  height: 50px;
+  width: 150px;
+}
+
+/* ℹ️ ABOUT SECTION */
+.about-section ul li {
+  padding: 6px 0;
+  font-size: 0.95rem;
+}
+
+.about-section i {
+  font-size: 1.5rem;
+  color: #dc3545;
+}
+
+.about-aminities {
+  border-right: 1px solid black;
+}
+
+/* 🖼️ IMAGE GRID (Gallery/Listing) */
+.image-grid img {
+  height: 200px;
+  object-fit: cover;
+  width: 100%;
+}
